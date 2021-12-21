@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+div .card{
+    text-align: center;
+   border: solid black 1px;
+   width: 28%;
+   margin-top: 2%;
+   margin-left:35%;
+   border-radius: 5px;
+   box-shadow: rgb(109, 109, 143) 2px 2px 2px 2px;  
+}
+.card3{
+    color: rgb(85, 62, 66);
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+.card3:hover{
+    color: rgb(170, 160, 163);
+}
+.card1{
+    color: rgb(85, 62, 66);
+    margin-bottom: 1%;
+    font-size: 11px;
+}
+
