@@ -11,7 +11,7 @@ const Card1 = () => {
     }, [])
 
     const getCharacter = () => {
-        axios.get("https://www.breakingbadapi.com/api/characters/1").then((res) => setdata(res.data)).catch((err) => console.log(err));
+        axios.get("https://www.breakingbadapi.com/api/characters").then((res) => setdata(res.data)).catch((err) => console.log(err));
     }
 
     console.log("characters", data);
